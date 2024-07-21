@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: url(./img/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Garantit que l'arrière-plan couvre toute la hauteur de la fenêtre */
+    margin: 0; /* Supprimer la marge par défaut */
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+ background-color: black;
+ color: cyan;
+ display: grid;
+ grid-template-columns: 20% 60% 20%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 44px;
+}
+
+.grid {
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  height: 30px;
+  width: 80px;
+  position: absolute; left: 1620px; top: 25px;
+}
+
+li {
+  list-style: none;
+  text-shadow: 3px 4px 20px black;
+}
+
+.lesTitres {
+    margin: 50px
+}
+
+.listeTitres {
+    font-size: 18px;
+    list-style: none;
+  
+}
+
+.Titre {
+  text-decoration: underline;
+}
+
+td {
+  font-size: 18px;
+}
+
+.titreH2DansExemple {
+  margin-top: 2px;
+}
+
+.scriptImgHtml {
+  height: 460px; 
+  width: 550px;
+  box-shadow: 6px -2px 20px 6px black;
+  position: absolute;left: 1222px; top: 150px; 
+}
+
+.scrptHtml { 
+  position: absolute; left: 368px; top: 420px; 
+  height: 200px;
+  width: 600px;
+  box-shadow: 1px 1px 20px 0px black;
+}
+
+.button {
+  position: absolute; left: 300px; top: 700px;
+  height: 250px;
+  width: 350px;
+  box-shadow: 0 0 20px black;
+}
+
+.buttonHtml {
+  position: absolute; left: 750px; top: 700px;
+  box-shadow: 1px 4px 20px 0px black;
+}
+
+#button {
+  height: 60px;
+  width: 120px;
+  cursor: pointer;
+  background: hsl(167, 93%, 49%);
+  transition: 0.2s;
+  border-radius: 10px;
+}
+
+#button:hover {
+  background: rgba(19, 0, 194, 0.479);
+  color: hsl(167, 93%, 49%);
+}
+
+.fleche {
+  font-size: 70px;
+  position: absolute; left: 190px; top: 680px;
+} 
+
+.fleche1 {
+  font-size: 70px;
+  position: absolute; left: 670px; top: 680px;
+}
+
+.fleche2 {
+  font-size: 70px;
+  position: absolute; left: 240px; top: 420px;
+}
+
+.fleche3 {
+  font-size: 70px;
+  position: absolute; left: 470px; top: 970px;
+}
+
+.fleche4 {
+  font-size: 60px;
+  position: absolute; left: 970px; top: 1400px;
+}
+
+.fleche5 {
+  font-size: 60px;
+  position: absolute; left: 1400px; top: 1400px;
+}
+
+.input {
+  height: 160px;
+  width: 560px;
+  position: absolute; left: 600px; top: 1050px;
+  box-shadow: 0 0 20px black;
+}
+
+
+
+table {
+  width: 50%;
+}
+
+tr, td {
+  border: 1px black;
+  padding: 8px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+tr {
+  background-color: #ffffff;
+}
+
+.scriptTableCss {
+  position: absolute; left: 1500px; top: 1350px;
+}
+
+.sciptTable {
+  position: absolute; left: 1060px; top: 1350px;
+}
+
+/* Responsice */
+
